@@ -51,9 +51,9 @@ h4{
      margin : 1rem 1.7rem;
      font-size: 1.55rem;
 }
-.resultbox{
+/* .resultbox{
      height: 4.5rem;
-     width: 23rem;
+     width: 50vw;
      background-color: aqua;
      margin : auto;
      margin-top : 1.5rem;
@@ -62,6 +62,14 @@ h4{
      display : flex;
      justify-content: center;
      align-items: center;
+} */
+#result{
+     display : inline-block;
+     padding: 1rem 2rem;
+     border-radius : 1.3rem;
+     font-size : 1.4rem;
+     margin : 1.5rem 0 ;
+     background-color: aqua;
 }
 .rock:hover{
      box-shadow: 0 0 30px 25px pink;
