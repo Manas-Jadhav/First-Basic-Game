@@ -20,19 +20,19 @@ function result(choice) {
      let op = ["Rock", "Paper", "Scissors"];
      let gen = Math.floor(Math.random() * 3);
      if (choice === gen) {
-          resultText.innerText = "It was a tie";
+          resultText.innerText = "It was a tie!";
           resultText.style.backgroundColor = "yellow";
      }
      else if ((choice === 0 && gen === 1) || (choice === 1 && gen === 2) || (choice === 2 && gen === 0)) {
           ccount++;
           comps.innerText = ccount;
-          resultText.innerText = `You Lost! Computer choose ${op[gen]}`;
+          resultText.innerText = `You Lost!\nComputer choose ${op[gen]}`;
           resultText.style.backgroundColor = "rgb(255, 78, 78)";
      }
      else {
           ycount++;
           yous.innerText = ycount;
-          resultText.innerText = `You Won! Computer choose ${op[gen]}`;
+          resultText.innerText = `You Won!\nComputer choose ${op[gen]}`;
           resultText.style.backgroundColor = "greenyellow";
      }
 }
